@@ -90,8 +90,8 @@ export async function fetchWeatherData(city?: any): Promise<any[]> {
 export const transporter = nodemailer.createTransport({
   service: 'gmail.com', // You can use any email service
   auth: {
-    user: 'nileshkasar929@gmail.com',
-    pass: 'sfgs ytyn hjui mzxy',
+    user: 'sarthakvikhe@gmail.com',
+    pass: 'qixx lrim uqmx tmlt',
   },
 });
 
@@ -99,7 +99,7 @@ export const transporter = nodemailer.createTransport({
 export async function sendWeatherEmail(to: string, subject: string, htmlContent: string) {
   try {
     await transporter.sendMail({
-      from: 'nileshkasar929@gmail.com',
+      from: 'sarthakvikhe@gmail.com',
       to: to,
       subject: subject,
       html: htmlContent,

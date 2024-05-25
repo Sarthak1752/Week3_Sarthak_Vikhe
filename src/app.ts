@@ -1,6 +1,5 @@
 import { saveWeather,fetchWeather, fetchWeatherData,sendWeatherEmail,htmlFormat } from './service';
 import express from 'express';
-import sequelize from './pgConfig';
 import bodyParser from 'body-parser';
 import nodemailer from 'nodemailer'
 
