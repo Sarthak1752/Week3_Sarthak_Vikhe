@@ -1,14 +1,11 @@
-// import { Pool } from 'pg';
+
 import { Sequelize } from 'sequelize';
 
-
-// const pool = new Pool({
-  
  const sequelize = new Sequelize({
     username: 'postgres',
     host: 'localhost',
     database: "postgres",
-    password: "sarthak",
+    password: "root",
     port: 5432,
     dialect: "postgres",
 });

@@ -9,7 +9,7 @@ export const saveWeather = async (city: string, country: string, geocodingApiKey
     &country=${country}`
     , {headers: { 'X-Api-Key': geocodingApiKey },})
 
-    
+
     console.log(response.data[0])
     return response.data[0];
     
@@ -24,7 +24,7 @@ export const fetchWeather=async(lati:number,long:number,weatherApiKey:string)=>{
     url: `https://weatherapi-com.p.rapidapi.com/current.json`,
     params: { q: `${lati},${long}` },
     headers: {
-      'X-RapidAPI-Key': '8e513d669fmshf460a87b0af5e34p1b6307jsn793a028da0c8',
+      'X-RapidAPI-Key': 'c19db6272cmshb57302bf98667e1p19ac3fjsncf723e114701',
       'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
     }
   };

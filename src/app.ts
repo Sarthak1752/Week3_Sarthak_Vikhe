@@ -5,8 +5,8 @@ import bodyParser from 'body-parser';
 import nodemailer from 'nodemailer'
 
 // Replace these with your actual API keys
-const geocodingApiKey = 'j6uPVpk0YFA4XzoLASux1Q==btHqA4uNxl1pQaXS';
-const weatherApiKey ='8e513d669fmshf460a87b0af5e34p1b6307jsn793a028da0c8';
+const geocodingApiKey = 'EawR1VooP3sT7WkzEVqlrw==a3GUEDZGn5lTSF6E';
+const weatherApiKey ='c19db6272cmshb57302bf98667e1p19ac3fjsncf723e114701';
 
 const app = express();
 app.use(bodyParser.json());
@@ -76,4 +76,3 @@ const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
