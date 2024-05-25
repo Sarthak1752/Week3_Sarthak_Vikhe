@@ -1,0 +1,30 @@
+{
+  "name": "Week3_Sarthak_Vikhe",
+  "version": "1.0.0",
+  "description": "Weather fetching and storing API",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  },
+ 
+  "author": "Sarthak Vikhe",
+  "license": "ISC",
+  
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "@types/nodemailer": "^6.4.15",
+    "@types/pg": "^8.11.6",
+    "@types/sequelize": "^4.28.20"
+  }
+}
